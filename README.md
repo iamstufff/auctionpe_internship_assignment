@@ -59,4 +59,32 @@ npm i
    ```sh
    npm run start
    ```
-  
+
+## Database Setup
+Run this SQL Script in the command line to setup the MySQL Database:
+
+```sql
+CREATE DATABASE auctionpe_db;
+USE auctionpe_db;
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+CREATE TABLE sessions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    start_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    end_time TIMESTAMP NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+CREATE TABLE actions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    session_id INT NOT NULL,
+    action_type VARCHAR(255) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (session_id) REFERENCES sessions(id)
+);
+```
+
+
