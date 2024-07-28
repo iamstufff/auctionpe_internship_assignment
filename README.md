@@ -86,5 +86,14 @@ CREATE TABLE actions (
     FOREIGN KEY (session_id) REFERENCES sessions(id)
 );
 ```
+## Documentation
+### Code Structure
+
+**Backend**
+- index.js: Entry point for the Express server, sets up middleware and routes.
+- controllers/: Contains logic for handling authentication and session management.
+- models/: Defines database schema for users and sessions.
+- routes/: Defines API endpoints for authentication and session management.
+- config/: Manages database connection using MySQL
 
 
