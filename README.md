@@ -3,8 +3,8 @@
 
 This repository contains the source code for the AuctionPe assignment, a full-stack web application with the following features:
 1. User Authentication:
-○ Sign Up: Allow users to create an account.
-○ Login: Allow users to log into their account.
+- Sign Up: Allow users to create an account.
+- Login: Allow users to log into their account.
 2. Session Management:
 ○ After a user logs in, they should be redirected to a page with a Call-To-Action (CTA)
 to "Start or End a session."
