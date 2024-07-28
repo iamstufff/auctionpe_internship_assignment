@@ -1,0 +1,27 @@
+.auth_page {
+  min-height: 96vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5vh;
+  padding: 2vh 5vw;
+  background-color: #fafafa;
+}
+
+.auth_page form {
+  background-color: #ffffff;
+  padding: 2vh 3vw;
+  border-radius: 10px;
+}
+
+.auth_page input {
+  width: 100%;
+  padding: 1vh 1vw;
+  margin-bottom: 2vh;
+  background-color: #fafafa;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-weight: 600;
+}

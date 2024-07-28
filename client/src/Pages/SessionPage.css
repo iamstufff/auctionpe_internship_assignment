@@ -1,0 +1,26 @@
+.session {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5vh;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+}
+
+label {
+  height: 6vh;
+  padding-inline: 2vw;
+  border: 1px solid #ccc;
+  border-radius: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: 500;
+}

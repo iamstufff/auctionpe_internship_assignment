@@ -1,0 +1,37 @@
+.app {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2vh 2vw;
+  display: flex; /* Added display flex to center the form */
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center the form vertically */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+  padding: 2vh 2vw;
+  width: 40vw;
+  background-color: #000000; /* Added a light gray background to the form */
+  border-radius: 1vh; /* Added a slight border radius to the form */
+  box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+input {
+  height: 6vh;
+  padding-inline: 2vw;
+  border: 1px solid #ddd; /* Removed the default border from the input fields */
+  border-radius: 1vh; /* Added a slight border radius to the input fields */
+  color: #020918;
+  background-color: #fafafa; /* Added a light gray background to the input fields */
+  font-weight: 600;
+  text-align: center;
+}
+
+button {
+  margin: auto;
+}

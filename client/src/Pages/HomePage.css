@@ -1,0 +1,8 @@
+.homepage {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 4vh;
+  padding: 3vh 0;
+}
