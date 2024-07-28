@@ -104,5 +104,21 @@ CREATE TABLE actions (
 - pages/: Contains page-level components.
 - apis/: Contains utility functions for making API calls.
 
+### Design Decisions
+**Frontend**
 
+- Component-Based Architecture: Components such as Login, Signup, and Dashboard are reusable and can be easily managed.
+- React Router:
+-- Single Page Application (SPA): Using React Router allows for seamless navigation without full page reloads.
+-- User Experience: Provides a better user experience by maintaining the application state during navigation.
 
+**Backend**
+- Express Framework:
+-- Scalability: Express is a lightweight and flexible framework, ideal for building scalable web applications.
+-- Middleware Support: Easily integrates middleware for handling various tasks such as authentication and error handling.
+- Controllers:
+-- Separation of Logic: Controllers separate the business logic from the routing logic, making the code more organized and maintainable.
+- Middlewares:
+-- Authentication Middleware: Centralized authentication logic ensures that protected routes are only accessible to authenticated users.
+- Routes:
+-- Modular Routing: Separating routes into different files (actionRoutes.js, authRoutes.js and sessionRoutes.js) keeps the routing logic clean and manageable.
