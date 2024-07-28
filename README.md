@@ -24,7 +24,7 @@ within each session.
 1. Clone repository
    ```sh
    git clone https://github.com/iamstufff/auctionpe_internship_assignment
-  ``
+   
 2. Install Dependencies:
 ```sh
 npm i
@@ -42,5 +42,21 @@ npm i
 4. Start the backend server:
    ```sh
    npm start
+   ```
+### Frontend
+
+1. Go to client folder:
+      ```sh
+   cd ../client
+   ```
+2. Install dependencies:
+
+   ```sh
+   npm i
+   ```
+
+3. Start the frontend development server:
+   ```sh
+   npm run start
    ```
   
