@@ -114,11 +114,11 @@ CREATE TABLE actions (
 
 **Backend**
 - Express Framework:
- - Scalability: Express is a lightweight and flexible framework, ideal for building scalable web applications.
- - Middleware Support: Easily integrates middleware for handling various tasks such as authentication and error handling.
+   - Scalability: Express is a lightweight and flexible framework, ideal for building scalable web applications.
+   - Middleware Support: Easily integrates middleware for handling various tasks such as authentication and error handling.
 - Controllers:
- - Separation of Logic: Controllers separate the business logic from the routing logic, making the code more organized and maintainable.
+   - Separation of Logic: Controllers separate the business logic from the routing logic, making the code more organized and maintainable.
 - Middlewares:
- - Authentication Middleware: Centralized authentication logic ensures that protected routes are only accessible to authenticated users.
+   - Authentication Middleware: Centralized authentication logic ensures that protected routes are only accessible to authenticated users.
 - Routes:
- - Modular Routing: Separating routes into different files (actionRoutes.js, authRoutes.js and sessionRoutes.js) keeps the routing logic clean and manageable.
+   - Modular Routing: Separating routes into different files (actionRoutes.js, authRoutes.js and sessionRoutes.js) keeps the routing logic clean and manageable.
