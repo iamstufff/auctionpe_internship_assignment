@@ -94,6 +94,15 @@ CREATE TABLE actions (
 - controllers/: Contains logic for handling authentication and session management.
 - models/: Defines database schema for users and sessions.
 - routes/: Defines API endpoints for authentication and session management.
-- config/: Manages database connection using MySQL
+- config/: Manages database connection using MySQL.
+- middlewares/: Contains middleware functions to check user authentication status.
+
+**Frontend**
+- app.jsx: Main application component that sets up routing.
+- main.jsx: Entry point for the React application.
+- components/: Contains reusable React components.
+- pages/: Contains page-level components.
+- apis/: Contains utility functions for making API calls.
+
 
 
