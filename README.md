@@ -109,8 +109,8 @@ CREATE TABLE actions (
 
 - Component-Based Architecture: Components such as Login, Signup, and Dashboard are reusable and can be easily managed.
 - React Router:
- - Single Page Application (SPA): Using React Router allows for seamless navigation without full page reloads.
- - User Experience: Provides a better user experience by maintaining the application state during navigation.
+   - Single Page Application (SPA): Using React Router allows for seamless navigation without full page reloads.
+   - User Experience: Provides a better user experience by maintaining the application state during navigation.
 
 **Backend**
 - Express Framework:
