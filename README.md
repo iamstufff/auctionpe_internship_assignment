@@ -21,10 +21,10 @@ within each session.
 ## Set Up
 ### Backend
 
-1. Clone the backend repo
+1. Clone repository
    ```sh
    git clone https://github.com/iamstufff/auctionpe_internship_assignment
-  ```
+  ``
 2. Install Dependencies:
 ```sh
 npm i
@@ -32,10 +32,10 @@ npm i
 3. Create a `.env` file in `server` and add your environment variables:
 
    ```env
-   JWT_SECRET=your_jwt_secret (random jwt secret)
+   JWT_SECRET=your_jwt_secret #random jwt secret
    DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=your_password (password for you local mysql db)
+   DB_USER=root #username is root in my case
+   DB_PASSWORD=your_password #password for you local mysql db
    DB_NAME=auctionpe_db
    ```
 
